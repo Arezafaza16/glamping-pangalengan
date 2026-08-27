@@ -158,14 +158,25 @@ export const Packages: React.FC<PackagesProps> = ({ onSelectPackage }) => {
                     <span>Pilihan Utama • Holiday Explore A</span>
                   </div>
                 ) : pkg.isPopular ? (
-                  <div className="absolute -top-3.5 right-6 z-20 px-3.5 py-1 rounded-full bg-[#effafc] border border-[#209eb6]/40 text-[#209eb6] font-bold text-xs flex items-center gap-1">
+                  <div className="absolute -top-3.5 right-6 z-20 px-3.5 py-1 rounded-full bg-[#effafc] border border-[#209eb6]/40 text-[#209eb6] font-bold text-xs flex items-center gap-1 shadow-sm">
                     <Flame className="w-3.5 h-3.5 text-amber-500 fill-amber-500" />
                     <span>{pkg.accentBadge}</span>
                   </div>
                 ) : null}
 
+                {/* Package Image */}
+                <div className="h-48 sm:h-52 w-full rounded-t-3xl overflow-hidden relative shrink-0">
+                  <img
+                    src={pkg.imageUrl}
+                    alt={pkg.name}
+                    className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent opacity-60" />
+                </div>
+
                 {/* Card Header & Content */}
-                <div className="p-7 sm:p-8 flex-1 flex flex-col">
+                <div className="p-7 sm:p-8 pt-6 flex-1 flex flex-col">
                   {/* Package Code & Activities */}
                   <div className="flex items-center justify-between gap-2 mb-2">
                     <span
