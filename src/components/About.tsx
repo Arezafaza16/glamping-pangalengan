@@ -103,7 +103,7 @@ export const About: React.FC = () => {
           <div ref={leftColRef} className="lg:col-span-5 relative">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
               <img
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1000&q=80"
+                src="/images/gallery2.jpg"
                 alt="PT Caswika Putri Mandiri Outbound Team Building di Pangalengan"
                 className="w-full h-[460px] sm:h-[520px] object-cover hover:scale-105 transition-transform duration-700"
                 loading="lazy"

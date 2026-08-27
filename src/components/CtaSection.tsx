@@ -49,7 +49,7 @@ export const CtaSection: React.FC = () => {
       <div
         className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat transition-transform duration-1000 scale-105"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=2000&q=85')`,
+          backgroundImage: `url('/images/hero2.jpeg')`,
         }}
       >
         <div className="absolute inset-0 bg-slate-950/80" />

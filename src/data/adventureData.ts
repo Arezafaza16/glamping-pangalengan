@@ -24,7 +24,7 @@ export const PACKAGES_DATA: PackageItem[] = [
     priceFormatted: "Rp 195.000",
     activities: "Rafting + Makan",
     tagline: "Sensasi arung jeram Sungai Palayangan yang memacu adrenalin dilengkapi santap kuliner khas.",
-    imageUrl: "https://images.unsplash.com/photo-1530866495561-507c9faab2ed?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/images/gallery5.jpeg",
     includes: [
       "Rafting Sungai Palayangan (4,5 km)",
       "Pemandu / River Guide Bersertifikat",
@@ -45,7 +45,7 @@ export const PACKAGES_DATA: PackageItem[] = [
     priceFormatted: "Rp 285.000",
     activities: "Rafting + Paintball + Makan",
     tagline: "Pertarungan taktik seru di hutan pinus dilanjutkan arung jeram deras yang menantang.",
-    imageUrl: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/images/gallery4.jpeg",
     isPopular: true,
     accentBadge: "Paket Favorit",
     includes: [
@@ -69,7 +69,7 @@ export const PACKAGES_DATA: PackageItem[] = [
     priceFormatted: "Rp 230.000",
     activities: "Rafting + Flying Fox + Makan",
     tagline: "Meluncur di atas danau Situ Cileunca yang menakjubkan, lalu taklukkan jeram sungai.",
-    imageUrl: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/images/hero3.jpeg",
     includes: [
       "Rafting Sungai Palayangan (4,5 km)",
       "Wahana Flying Fox Lintas Danau",
@@ -91,7 +91,7 @@ export const PACKAGES_DATA: PackageItem[] = [
     priceFormatted: "Rp 250.000",
     activities: "Rafting + Fun Games + Makan",
     tagline: "Ice breaking seru dan games kekompakan untuk membakar semangat seluruh peserta.",
-    imageUrl: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/images/gallery3.jpg",
     includes: [
       "Rafting Sungai Palayangan (4,5 km)",
       "Program & Peralatan Fun Games Lengkap",
@@ -113,7 +113,7 @@ export const PACKAGES_DATA: PackageItem[] = [
     priceFormatted: "Rp 285.000",
     activities: "Rafting + Team Building + Makan",
     tagline: "Modul kepemimpinan, sinergi, dan peningkatan rasa percaya untuk perusahaan & instansi.",
-    imageUrl: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/images/gallery2.jpg",
     isPopular: true,
     accentBadge: "Pilihan Corporate",
     includes: [
@@ -137,7 +137,7 @@ export const PACKAGES_DATA: PackageItem[] = [
     priceFormatted: "Rp 325.000",
     activities: "Rafting + ATV Tandem + Makan",
     tagline: "Kombinasi petualangan terbaik: rute offroad kebun teh berlumpur dan derasnya arung jeram.",
-    imageUrl: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/images/gallery1.jpeg",
     isPremium: true,
     accentBadge: "Pilihan Petualangan Premium",
     includes: [
