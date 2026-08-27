@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --color-brand: #209eb6;
+  --color-brand-hover: #19849a;
+  --color-brand-dark: #126374;
+  --color-brand-light: #52bfd4;
+  --color-brand-50: #effafc;
+  --color-brand-100: #d6f2f7;
+  --color-brand-200: #b0e4ee;
+  --color-forest: #0d2822;
+  --color-forest-dark: #071714;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom utility classes */
+.text-brand {
+  color: #209eb6;
+}
+
+.bg-brand {
+  background-color: #209eb6;
+}
+
+.bg-brand-hover:hover {
+  background-color: #19849a;
+}
+
+.border-brand {
+  border-color: #209eb6;
+}
+
+.shadow-brand {
+  box-shadow: 0 10px 25px -5px rgba(32, 158, 182, 0.25), 0 8px 10px -6px rgba(32, 158, 182, 0.2);
+}
+
+.shadow-subtle {
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05), 0 2px 6px -1px rgba(15, 23, 42, 0.03);
+}
+
+.glass-nav {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.glass-dark {
+  background: rgba(13, 40, 34, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
