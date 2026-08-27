@@ -261,6 +261,46 @@ export const GALLERY_DATA: GalleryItem[] = [
     categoryLabel: "Rafting",
     location: "Sungai Palayangan",
     imageUrl: "/images/gallery5.jpeg"
+  },
+  {
+    id: "gal-6",
+    title: "Momen Seru Glamping",
+    category: "glamping",
+    categoryLabel: "Glamping",
+    location: "Glamping Pangalengan",
+    imageUrl: "/images/gallery6.jpeg"
+  },
+  {
+    id: "gal-7",
+    title: "Aktivitas Outbound",
+    category: "teambuilding",
+    categoryLabel: "Team Building",
+    location: "Pangalengan",
+    imageUrl: "/images/gallery7.heif"
+  },
+  {
+    id: "gal-8",
+    title: "Pesona Alam Rahong",
+    category: "nature",
+    categoryLabel: "Pesona Alam",
+    location: "Hutan Pinus Rahong",
+    imageUrl: "/images/gallery8.heic"
+  },
+  {
+    id: "gal-9",
+    title: "Keseruan Bersama",
+    category: "adventure",
+    categoryLabel: "Adventure",
+    location: "Pangalengan",
+    imageUrl: "/images/gallery9.HEIC"
+  },
+  {
+    id: "gal-10",
+    title: "Petualangan Seru",
+    category: "rafting",
+    categoryLabel: "Rafting",
+    location: "Sungai Palayangan",
+    imageUrl: "/images/gallery10.JPG"
   }
 ];
 

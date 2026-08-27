@@ -117,8 +117,8 @@ export const Gallery: React.FC = () => {
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5"
         >
           {filteredItems.map((item, index) => {
-            // Span configuration for a 5-item bento grid layout
-            const isLarge = index === 0;
+            // Span configuration for a 5-item bento grid layout (repeats every 5)
+            const isLarge = index % 5 === 0;
 
             return (
               <div
