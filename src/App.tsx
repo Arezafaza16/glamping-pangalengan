@@ -9,6 +9,7 @@ import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { Features } from './components/Features';
 import { Packages } from './components/Packages';
+import { Accommodations } from './components/Accommodations';
 import { Gallery } from './components/Gallery';
 import { VisionMission } from './components/VisionMission';
 import { TeamSection } from './components/TeamSection';
@@ -44,7 +45,10 @@ export default function App() {
         {/* 4. Packages Section */}
         <Packages onSelectPackage={handleSelectPackage} />
 
-        {/* 5. Adventure Gallery */}
+        {/* 5. Accommodations Section */}
+        <Accommodations />
+
+        {/* 6. Adventure Gallery */}
         <Gallery />
 
         {/* 6. Vision & Mission */}

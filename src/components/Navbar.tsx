@@ -26,6 +26,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
     { name: 'Beranda', href: '#home' },
     { name: 'Tentang Kami', href: '#about' },
     { name: 'Paket Wisata', href: '#packages' },
+    { name: 'Penginapan', href: '#accommodations' },
     { name: 'Galeri', href: '#gallery' },
     { name: 'Visi & Misi', href: '#vision-mission' },
     { name: 'Tim Kami', href: '#team' },

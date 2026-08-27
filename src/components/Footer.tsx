@@ -11,6 +11,7 @@ export const Footer: React.FC = () => {
     { name: 'Beranda', href: '#home' },
     { name: 'Tentang Kami', href: '#about' },
     { name: 'Paket Petualangan', href: '#packages' },
+    { name: 'Penginapan', href: '#accommodations' },
     { name: 'Galeri Visual', href: '#gallery' },
     { name: 'Visi & Misi', href: '#vision-mission' },
     { name: 'Kontak & Reservasi', href: '#contact' },

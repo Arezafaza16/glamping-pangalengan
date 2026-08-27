@@ -1,4 +1,4 @@
-import { PackageItem, GalleryItem, FeatureItem, ValueItem, MissionItem, TeamMember } from '../types';
+import { PackageItem, GalleryItem, FeatureItem, ValueItem, MissionItem, TeamMember, AccommodationItem } from '../types';
 
 export const COMPANY_INFO = {
   name: "PT CASWIKA PUTRI MANDIRI",
@@ -333,6 +333,252 @@ export const TEAM_MEMBERS: TeamMember[] = [
     specialty: "Logistik Lapangan & Manajemen Basecamp Pangalengan",
     experience: "5+ Tahun Pengalaman",
     imageUrl: "/images/team7.jpeg",
-    badge: "Logistics Expert"
+  }
+];
+
+export const ACCOMMODATIONS_DATA: AccommodationItem[] = [
+  {
+    id: "acc-1",
+    name: "Luxury Cabin",
+    capacity: "2 Orang (Maks 5 dengan extra bed)",
+    facilities: [
+      "Kitchen Set (Alat masak, alat makan, kulkas, dispenser)",
+      "Smart TV",
+      "WiFi",
+      "Sofa bed",
+      "Alat solat",
+      "Hair dryer",
+      "Kolam renang bersama"
+    ],
+    imageUrl: "/images/luxury-cabin.jpg"
+  },
+  {
+    id: "acc-2",
+    name: "Wood Cabin",
+    capacity: "4 Orang (Maks 6 dengan extra bed)",
+    facilities: [
+      "Kamar Mandi (Water Heater)",
+      "Dispenser",
+      "Lemari Mini",
+      "Kitchen set",
+      "Smart TV",
+      "WiFi",
+      "Sofa bed",
+      "Kolam renang bersama"
+    ],
+    imageUrl: "/images/wood-cabin.jpeg"
+  },
+  {
+    id: "acc-3",
+    name: "Cokro Cabin Riverside",
+    capacity: "10 Orang",
+    facilities: [
+      "Kasur, Bantal, Selimut",
+      "Port Charging (Listrik)",
+      "Kamar mandi dalam (Water heater)"
+    ],
+    imageUrl: "/images/cokro-cabin.jpeg"
+  },
+  {
+    id: "acc-4",
+    name: "Mezzanine 25",
+    capacity: "8 Orang",
+    facilities: [
+      "1 queen bed, 1 single bed, 2 extra bed double",
+      "Sarapan",
+      "Smart TV",
+      "Water heater",
+      "Kulkas mini",
+      "Water station",
+      "Api unggun private",
+      "Mini kitchen",
+      "Toiletries",
+      "Sofa bed",
+      "WiFi"
+    ],
+    imageUrl: "/images/mezzanine-25.jpg"
+  },
+  {
+    id: "acc-5",
+    name: "Japan Pines",
+    capacity: "8 Orang",
+    facilities: [
+      "Single bed",
+      "Smart TV",
+      "Water heater",
+      "WiFi",
+      "Water station",
+      "Api unggun private",
+      "Welcome drink"
+    ],
+    imageUrl: "/images/japan-pines.jpeg"
+  },
+  {
+    id: "acc-6",
+    name: "Mezzanine 18",
+    capacity: "4 Orang",
+    facilities: [
+      "1 queen bed, 1 single bed",
+      "Sarapan",
+      "Smart TV",
+      "WiFi",
+      "Water station",
+      "Welcome drink",
+      "Kursi santai",
+      "Toiletries",
+      "Api unggun private"
+    ],
+    imageUrl: "/images/mezzanine-18.jpeg"
+  },
+  {
+    id: "acc-7",
+    name: "Cabin tea three",
+    capacity: "4 Orang (Maks 6-7 dengan extra bed)",
+    facilities: [
+      "Tersedia 5 unit",
+      "Kasur, bantal, selimut",
+      "Instalasi listrik",
+      "Handuk",
+      "Kamar mandi private",
+      "Area Lapangan Luas"
+    ],
+    imageUrl: "/images/cabin-tea-three.jpeg"
+  },
+  {
+    id: "acc-8",
+    name: "Cabin Riverside two",
+    capacity: "6 Orang",
+    facilities: [
+      "Kasur, bantal, selimut",
+      "Smart TV",
+      "Dispenser",
+      "Sofa",
+      "Kamar mandi water heater"
+    ],
+    imageUrl: "/images/cabin-riverside-two.jpg"
+  },
+  {
+    id: "acc-9",
+    name: "Villa Lakeview Family",
+    capacity: "15-20 Orang",
+    facilities: [
+      "3 Kamar tidur, 2 Kamar mandi di dalam",
+      "Kitchen set & Meja makan",
+      "TV & WiFi",
+      "Kulkas & Dispenser",
+      "Karaoke set",
+      "Sofa",
+      "Gazebo & Public area",
+      "Extra bed"
+    ],
+    imageUrl: "/images/villa-lakeview-family.jpg"
+  },
+  {
+    id: "acc-10",
+    name: "Lake view villa on",
+    capacity: "Menyesuaikan",
+    facilities: [
+      "2 Kamar mandi",
+      "Dispenser & Cooking set",
+      "WiFi",
+      "Parkir area",
+      "Gazebo",
+      "View Situ Cileunca"
+    ],
+    imageUrl: "/images/lake-view-villa-on.jpg"
+  },
+  {
+    id: "acc-11",
+    name: "Tree Cabin",
+    capacity: "4 Orang",
+    facilities: [
+      "Terdapat 3 unit cabin",
+      "Pemandangan view danau",
+      "Halaman luas & Akses mudah",
+      "Kamar mandi water heater"
+    ],
+    imageUrl: "/images/tree-cabin.jpeg"
+  },
+  {
+    id: "acc-12",
+    name: "Polux Cabin",
+    capacity: "2 Orang",
+    facilities: [
+      "Kitchen set & Mini bar",
+      "Kamar mandi water heater"
+    ],
+    imageUrl: "/images/polux-cabin.jpeg"
+  },
+  {
+    id: "acc-13",
+    name: "Riverside Camp Hills",
+    capacity: "4 Orang (Tenda Quechuaca 4.1)",
+    facilities: [
+      "Kasur, Bantal, Selimut",
+      "Meja & Tikar",
+      "Terminal Listrik & Penerangan",
+      "Sarapan"
+    ],
+    imageUrl: "/images/riverside-camp-hills.jpg"
+  },
+  {
+    id: "acc-14",
+    name: "Luxury Camp Hutan Pinus",
+    capacity: "4 Orang (Tenda Alltrek Eclipta)",
+    facilities: [
+      "Port Charging (Listrik)",
+      "Lampu Tenda & Lampu Emergency",
+      "Api Unggun & Peralatan Masak",
+      "Tiket Camping & Sarapan"
+    ],
+    imageUrl: "/images/luxury-camp-hutan-pinus.jpg"
+  },
+  {
+    id: "acc-15",
+    name: "Riverside Camp Sora",
+    capacity: "4 Orang",
+    facilities: [
+      "Kasur, Bantal, Selimut",
+      "Galon Air & Kompor",
+      "Penerangan & Terminal Listrik",
+      "Sarapan"
+    ],
+    imageUrl: "/images/riverside-camp-sora.jpg"
+  },
+  {
+    id: "acc-16",
+    name: "Green Glamping Private",
+    capacity: "4 Orang",
+    facilities: [
+      "Welcome Drink",
+      "Toilet Sharing (Water Heater)",
+      "Handuk & Akses Mudah",
+      "Gazebo & Private Dermaga",
+      "Sarapan"
+    ],
+    imageUrl: "/images/green-glamping-private.jpg"
+  },
+  {
+    id: "acc-17",
+    name: "Luxcamp Riverside Camp",
+    capacity: "4 Orang",
+    facilities: [
+      "Kasur, Bantal, Selimut",
+      "Kamar Mandi (Water Heater) Private",
+      "Sarapan"
+    ],
+    imageUrl: "/images/luxcamp-riverside-camp.jpg"
+  },
+  {
+    id: "acc-18",
+    name: "Riverside Camp Rahong",
+    capacity: "4 Orang",
+    facilities: [
+      "Bantal & Selimut",
+      "Penerangan & Terminal Listrik",
+      "Shelter Galon",
+      "Kamar Mandi (Water Heater)"
+    ],
+    imageUrl: "/images/riverside-camp-rahong.jpg"
   }
 ];

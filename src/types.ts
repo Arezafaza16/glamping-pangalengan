@@ -63,3 +63,11 @@ export interface ContactFormState {
   date: string;
   message: string;
 }
+
+export interface AccommodationItem {
+  id: string;
+  name: string;
+  capacity: string;
+  facilities: string[];
+  imageUrl: string;
+}
