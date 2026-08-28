@@ -276,7 +276,7 @@ export const GALLERY_DATA: GalleryItem[] = [
     category: "teambuilding",
     categoryLabel: "Team Building",
     location: "Pangalengan",
-    imageUrl: "/images/gallery7.heif"
+    imageUrl: "/images/gallery7.jpg"
   },
   {
     id: "gal-8",
@@ -284,7 +284,7 @@ export const GALLERY_DATA: GalleryItem[] = [
     category: "nature",
     categoryLabel: "Pesona Alam",
     location: "Hutan Pinus Rahong",
-    imageUrl: "/images/gallery8.heic"
+    imageUrl: "/images/gallery8.jpg"
   },
   {
     id: "gal-9",
@@ -292,7 +292,7 @@ export const GALLERY_DATA: GalleryItem[] = [
     category: "adventure",
     categoryLabel: "Adventure",
     location: "Pangalengan",
-    imageUrl: "/images/gallery9.HEIC"
+    imageUrl: "/images/gallery9.jpg"
   },
   {
     id: "gal-10",
