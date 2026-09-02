@@ -7,7 +7,7 @@ export const COMPANY_INFO = {
   establishedYear: "2016",
   phone: "0813 2283 4009",
   phoneClean: "6281322834009",
-  email: "info@glampingpangalengan.com",
+  email: "infocaswikaoutbound@gmail.com",
   website: "glampingpangalengan.com",
   address: "Hutan Pinus Rahong, Pulosari, Kec. Pangalengan, Kabupaten Bandung, Jawa Barat 40378, Indonesia",
   locationName: "Pangalengan, Bandung",
